@@ -15,16 +15,14 @@ bundle install
 
 ```
 pry
+require_relative 'last_word_length'
 last_word_length('Your Word here')
-Or simply edit the last_word_length.rb 
-Add last_word_length('Your Word here')
-then call ruby last_word_length.rb
 ```
-
 ###### Problem 2:- Given a set of numbers, find the subset in which the sum of the elements is the maximum sum.
-
+#
 ```
 pry
+require_relative 'max_subarray_sum'
 max_subarray_sum(input array here)
 ```
 
@@ -33,12 +31,15 @@ max_subarray_sum(input array here)
 
 ```
 pry
+require_relative 'most_sequence_chars'
 most_sequence_chars('Your Word hereeee')
 ```
+- Or simply edit the file Eg.:- `last_word_length.rb `
+- Add `p last_word_length('Your Word here')` on the bottom
+- run `ruby last_word_length.rb` on the terminal
 
 #### To run specs
 
 ```
 rspec spec -f documentation
 ```
-
